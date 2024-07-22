@@ -26,9 +26,8 @@ const Section1 = (props) => {
                             <img src={Seta} alt='Seta do botão'/>
                         </span>
                 </button>
-                
-
             </div>
+            
             <div>
                 <img src={Foto1} alt='Foto1' className='Foto1'/>
                 <img src={Foto2} alt='Foto1' className='Foto2'/>
