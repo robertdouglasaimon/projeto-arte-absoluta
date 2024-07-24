@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.d2 {
+    padding-right: 83px;
+}
+
+.d1 h1 {
+    font-family: var(--Poppins);
+    font-size: 20px;
+    font-weight: 550;
+    color: var(--cor4);
+
+    margin-bottom: -20px;
+}
+
+.d1 h2 {
+    font-family: var(--Poppins);
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--cor4);
+
+    margin-bottom: -15px; /* Reduzir espaço abaixo do h2 */
+    line-height: 1.2;
+}
+
+.d1 p {
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: 350;
+    color: var(--cor1);
+}
+
+.dois {
+    margin-top: 15px;
+}
+
+
+/*FOTOS ----------------------------------------*/
+.Fotos {
+    height: auto;
+    border-radius: 20px;
+}
