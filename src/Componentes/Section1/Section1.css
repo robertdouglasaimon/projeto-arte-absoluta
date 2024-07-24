@@ -5,18 +5,28 @@
     --cor1: #fff;
     --cor2: #787282;
     --cor3: #000;
-    --cor4:#D9D9D9
+    --cor4: #D9D9D9;
 } */
+
+.section1 {
+    padding-bottom: 130px;
+}
 
 .container {
     display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    position: relative;
+}
+
+.box {
+    width: 60%; /* Ajuste conforme necessário */
 }
 
 h1 {
     font-family: var(--Poppins);
     font-size: 96px;
     font-weight: bold;
-    padding: 76px 0px 40px 0px;
+    padding: 78px 0px 40px 0px;
     color: var(--cor4);
     line-height: 125%;
 }
@@ -57,36 +67,27 @@ h2 {
     height: 30px;
 }
 
-/*IMAGENS-------------------------------------------------*/
+/* IMAGENS -------------------------------------------------*/
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinha as imagens à direita */
+    padding-left: 10px;
+}
 
 .Foto1 {
-    display: flex;
-    width: auto;
-    flex: 1;
-    position: relative;
-    top: 10%;
-    left: 4%;
+    width: auto; 
     border-radius: 20px;
+    margin-bottom: 20px; 
+    padding-top: 55px;
 }
 
-.Foto2 {
-    display: flex;
-    width: auto;
-    flex: 1;
-    position: relative;
-    top: 12.2%;
-    left: 48%;
-    border-radius: 20px;
-}
-
+.Foto2,
 .Foto3 {
-    display: flex;
-    width: auto;
-    flex: 1;
-    position: relative;
-    left: 4%;
-    top: -15.4%;
+    width: auto; 
     border-radius: 20px;
+    margin-left: 20px;
 }
 
-/*------------------------------------------------------------*/
+/* ------------------------------------------------------------ */
