@@ -26,10 +26,10 @@ const Section2 = (props) => {
                     tipos de folhas, tipos de canetão, enfim<br></br> 
                     caralho!
                 </p>
-                <button className='botao dois'>
-                    Saiba mais
+                <button className='custom-button'>
+                        <p>Saiba mais</p>
                         <span className='Seta'>
-                            <img src={Seta} alt='Seta do botão'/>
+                            <img src={Seta} alt='Seta do botão' />
                         </span>
                 </button>
             </div>
