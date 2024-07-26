@@ -5,6 +5,7 @@ import Nav from './Componentes/Nav';
 import Section1 from './Componentes/Section1';
 import Espacamento from './Componentes/Espacamento';
 import Section2 from './Componentes/Section2';
+import Section3 from './Componentes/Section3';
 
 window.$ = $;
 
@@ -15,6 +16,7 @@ function App() {
         <Espacamento/>
         <Section1/>
         <Section2/>
+        <Section3/>
     </div>
   );
 }
