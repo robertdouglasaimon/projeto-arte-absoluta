@@ -20,8 +20,8 @@ const Section1 = (props) => {
                         Sua criatividade, sua inspiração <br />
                         Qualquer porra de história, seja livre!
                     </h2>
-                    <button className='botao'>
-                        Saiba mais
+                    <button className='custom-button'>
+                        <p>Saiba mais</p>
                         <span className='Seta'>
                             <img src={Seta} alt='Seta do botão' />
                         </span>
@@ -31,7 +31,7 @@ const Section1 = (props) => {
                 <div className='image-container'>
                     <img src={Foto1} alt='Foto1' className='Foto1' />
 
-                    <div style={{display: 'flex'}}>
+                    <div style={{display: 'flex'}} className='fotos'>
                         <img src={Foto2} alt='Foto2' className='Foto2' />
                         <img src={Foto3} alt='Foto3' className='Foto3' />
                     </div>
