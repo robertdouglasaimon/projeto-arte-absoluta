@@ -6,6 +6,7 @@ import Section1 from './Componentes/Section1';
 import Espacamento from './Componentes/Espacamento';
 import Section2 from './Componentes/Section2';
 import Section3 from './Componentes/Section3';
+import Section4 from './Componentes/Section4';
 
 window.$ = $;
 
@@ -17,6 +18,7 @@ function App() {
         <Section1/>
         <Section2/>
         <Section3/>
+        <Section4/>
     </div>
   );
 }

@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    position: relative;
+}
+
+.section4 h1 {
+    font-family: var(--Poppins);
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--cor1);
+    margin-bottom: 37px;
+}
+
+.section4 p {
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--cor1); 
+}
+
+.quadroDeFoto {
+    position: absolute;
+    left: -20px;
+    width: auto;
+    height: 550px;
+}
+
+.quadroDeFoto::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.3; 
+    z-index: 1;
+}
+
+.barraContainer {
+    position: relative;
+    z-index: 2; 
+}
+
+.circuloVermelho {
+    position: absolute;
+    top: 20px;
+    left: 34rem;
+}
+
+.circuloAmarelo {
+    position: absolute;
+    top: 20px;
+    left: 35.5em;
+}
+
+.circuloVerde {
+    position: absolute;
+    top: 20px;
+    left: 37rem;
+}
+
+.textoSection4 {
+    text-align: left;
+}
+
+.Foto7 {
+    margin: 71px 0px 0px 0px ;
+    border-radius: 10px;
+}
+
+.Foto8 {
+    position: absolute;
+    right: 215px;
+    top: 120px;
+    border-radius: 10px;
+}
+
+.Foto9 {
+    position: absolute;
+    right: 45px;
+    top: 120px;
+    border-radius: 10px;
+}
+
+.Foto10 {
+    position: absolute;    
+    border-radius: 10px;
+}
+
+.contador {
+    width: auto;
+}
