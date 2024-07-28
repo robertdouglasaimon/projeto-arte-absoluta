@@ -55,15 +55,15 @@ const Section4 = (props) => {
 
                     <div className='contadores'>
                         <div className='contador-item'>
-                            <div className='count'>{quantidadeProjetos}+</div>
+                            <div className='count'>{quantidadeProjetos}<b>+</b></div>
                             <div className='label'>Quantidade de projetos</div>
                         </div>
                         <div className='contador-item'>
-                            <div className='count'>{projetosAndamento}+</div>
+                            <div className='count'>{projetosAndamento}<b>+</b></div>
                             <div className='label'>Projetos em andamento</div>
                         </div>
                         <div className='contador-item'>
-                            <div className='count'>{projetosCompletos}+</div>
+                            <div className='count'>{projetosCompletos}<b>+</b></div>
                             <div className='label'>Projetos Completos</div>
                         </div>
                     </div>
