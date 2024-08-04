@@ -7,7 +7,7 @@ const Nav = (props) => {
     <div>
         <header>
             <ul className="nav justify-content-center text-align-center position-relative">
-                <img src={Logo} alt='Logo' className='Logo'/>
+                <img src={Logo} alt='Logo' className='Logo' id='logoDiego'/>
                 
                 <li className="nav-item">
                     <a className="nav-link active" href='/'>Inicio</a>

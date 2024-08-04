@@ -1,0 +1,27 @@
+.scroll-button {
+    position: fixed;
+    right: 20px;
+    background-color: #007bff;
+    /* color: white; */
+    color: var(--cor5);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .top-button {
+    bottom: 80px; /* Distância do fundo para o botão de cima */
+  }
+  
+  .bottom-button {
+    bottom: 20px; /* Distância do fundo para o botão de baixo */
+  }
+  

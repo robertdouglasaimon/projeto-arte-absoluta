@@ -11,6 +11,7 @@ import Section5 from './Componentes/Section5';
 import Section6 from './Componentes/Section6';
 import Contato from './Componentes/Contato';
 import Rodape from './Componentes/Rodape';
+import ScrollButtons from './Componentes/ScrollButtons';
 
 window.$ = $;
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
         <Nav/>
+        <ScrollButtons/>
         <Espacamento/>
         <Section1/>
         <Section2/>
