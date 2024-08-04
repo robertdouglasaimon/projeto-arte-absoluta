@@ -2,7 +2,6 @@ import './Contato.css'
 import Whatsapp from '../img/Whatsapp.png';
 import Email from '../img/Email.png';
 import Seta from '../img/Seta.png';
-import './AnimacaoDosIcones'
 
 const Contato = (props) => {
     return (
