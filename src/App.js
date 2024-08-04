@@ -9,6 +9,7 @@ import Section3 from './Componentes/Section3';
 import Section4 from './Componentes/Section4';
 import Section5 from './Componentes/Section5';
 import Section6 from './Componentes/Section6';
+import Contato from './Componentes/Contato';
 
 window.$ = $;
 
@@ -23,6 +24,7 @@ function App() {
         <Section4/>
         <Section5/>
         <Section6/>
+        <Contato/>
     </div>
   );
 }
