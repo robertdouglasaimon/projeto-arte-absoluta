@@ -22,7 +22,7 @@
     font-weight: 600;
     color: var(--cor3);
     position: absolute;
-    bottom: 70px;
+    bottom: 90px;
     text-decoration: underline;
 }
 
@@ -43,5 +43,32 @@
 .seta {
     position: absolute;
     right: 50px;
-    bottom: -10px;
+    bottom: 0px;
 }
+
+
+
+
+/*MOVIMENTAÇÃO DA SETA DE CONTATOS--------------------------------------*/
+
+/* Define a animação para mover a seta para cima e para baixo */
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Começa na posição original */
+    }
+    50% {
+        transform: translateY(-10px); /* Move para cima */
+    }
+    100% {
+        transform: translateY(0); /* Volta à posição original */
+    }
+}
+
+/* Aplica a animação quando o cursor passa sobre a seta */
+.fotoContatos > 
+    #seta:hover, 
+    #wpp:hover, 
+    #email:hover {
+    animation: moveUpDown 1s ease-in-out infinite; /* Adiciona a animação */
+}
+/*----------------------------------------------------------------------*/

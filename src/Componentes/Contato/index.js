@@ -2,6 +2,7 @@ import './Contato.css'
 import Whatsapp from '../img/Whatsapp.png';
 import Email from '../img/Email.png';
 import Seta from '../img/Seta.png';
+import './AnimacaoDosIcones'
 
 const Contato = (props) => {
     return (
@@ -22,7 +23,7 @@ const Contato = (props) => {
                     <a href="https://wa.me/61994309697">
                         <img src={Whatsapp} alt='Whatsapp' id='wpp'/>
                     </a>
-                    <a href="">
+                    <a href="/">
                         <img src={Email} alt='Email' id='email'/>
                     </a>
                 </div>
