@@ -1,0 +1,22 @@
+.sectionArts1 h1 {
+    font-family: var(--Poppins);
+    font-size: 96px;
+    font-weight: bold;
+    color: var(--cor4);
+    padding-top: 157px;
+    text-align: center;
+}
+
+.sectionArts1 p {
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: 300px;
+    color: var(--cor4);
+    padding: 35px 0px 169px 0px;
+    text-align: center;
+}
+
+.bannerArtsSection1 {
+    width: 100%;
+    padding-bottom: 59px;
+  }

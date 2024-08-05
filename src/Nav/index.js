@@ -11,19 +11,19 @@ const Nav = (props) => {
                 <img src={Logo} alt='Logo' className='Logo' id='logoDiego'/>
                 
                 <li className="nav-item">
-                    <Link className="nav-link active" href='/'>Inicio</Link>
+                    <Link className="nav-link active" to='/'>Início</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" href='/'>Sobre mim</Link>
+                    <Link className="nav-link" to='/about'>Sobre mim</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" href='/'>Artes</Link>
+                    <Link className="nav-link" to='/arts'>Artes</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" href='/'>Contato</Link>
+                    <Link className="nav-link" to='/contact'>Contato</Link>
                 </li>
                 
-                <Link href="https://www.youtube.com/watch?v=-wZl_ZhnVg4" target='_blank' rel="noreferrer">
+                <Link to="https://www.youtube.com/watch?v=-wZl_ZhnVg4" target='_blank' rel="noreferrer">
                     <img src={LogoYoutube} alt='LogoYoutube' className='LogoYoutube'/>
                 </Link>
             </ul>

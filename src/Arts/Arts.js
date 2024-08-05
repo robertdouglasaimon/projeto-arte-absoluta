@@ -1,10 +1,12 @@
 import React from 'react';
+import ArtsSection1 from './Section1';
+import ScrollButtons from '../Home/ScrollButtons';
 
-const Arts = () => {
+const Arts = (props) => {
   return (
     <div>
-      <h1>Artes</h1>
-      {/* Conteúdo específico da página "Artes" */}
+        <ScrollButtons/> 
+        <ArtsSection1/>
     </div>
   );
 };
