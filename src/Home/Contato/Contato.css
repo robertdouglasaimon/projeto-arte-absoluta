@@ -1,0 +1,74 @@
+.contatoContainer {
+    position: relative;
+    width: 1014px;
+    height: 634px;
+    background-color: var(--cor1);
+    border-radius: 100px;
+    margin: 0px 0px 105px 165px;
+    padding: 0px 0px 0px 100px;
+}
+
+.contatoTexto h1 {
+    font-family: var(--Poppins);
+    font-size: 65px;
+    font-weight: 600;
+    padding-top: 64px;
+    color: var(--cor3);
+}
+
+.contatoTexto h2 {
+    font-family: var(--Poppins);
+    font-size: 51px;
+    font-weight: 600;
+    color: var(--cor3);
+    position: absolute;
+    bottom: 90px;
+    text-decoration: underline;
+}
+
+.contatoTexto p {
+    font-family: var(--Poppins);
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.contatoRedesSociais {
+    display: flex;
+    position: absolute;
+    gap: 27px;
+    padding-top: 28px;
+}
+
+.seta {
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+}
+
+
+
+
+/*MOVIMENTAÇÃO DA SETA DE CONTATOS--------------------------------------*/
+
+/* Define a animação para mover a seta para cima e para baixo */
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Começa na posição original */
+    }
+    50% {
+        transform: translateY(-10px); /* Move para cima */
+    }
+    100% {
+        transform: translateY(0); /* Volta à posição original */
+    }
+}
+
+/* Aplica a animação quando o cursor passa sobre a seta */
+.fotoContatos > 
+    #seta:hover, 
+    #wpp:hover, 
+    #email:hover {
+    animation: moveUpDown 1s ease-in-out infinite; /* Adiciona a animação */
+}
+/*----------------------------------------------------------------------*/
