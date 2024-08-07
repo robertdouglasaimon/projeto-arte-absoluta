@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollButtons from './ScrollButtons';
 import Espacamento from './Espacamento';
 import Section1 from './Section1';
 import Section2 from './Section2';
@@ -13,7 +12,6 @@ import Contato from '../Contact/Contato';
 const Home = (props) => {
   return (
     <div>
-      <ScrollButtons />
       <Espacamento />
       <Section1 />
       <Section2 />

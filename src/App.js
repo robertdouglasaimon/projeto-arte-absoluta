@@ -4,12 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import $ from 'jquery'; 
 
-import Nav from './Nav';
-import Home from './Home/Home';
-import About from './About/About';
-import Arts from './Arts/Arts';
-import Contact from './Contact/Contact';
-import Rodape from './Rodape';
+import Nav from './Componentes/Nav';
+import Home from './Componentes/Home/Home';
+import About from './Componentes/About/About';
+import Arts from './Componentes/Arts/Arts';
+import Contact from './Componentes/Contact/Contact';
+import Rodape from './Componentes/Rodape';
+import ScrollButtons from './Componentes/ScrollButtons';
 
 window.$ = $;
 
@@ -18,6 +19,7 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
+        <ScrollButtons/>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />

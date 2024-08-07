@@ -1,0 +1,66 @@
+.textoArtsSection2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 1rem; /* Ajuste conforme necessário */
+  }
+
+.textoArtsSection2 h1{
+    font-family: var(--Poppins);
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor4);
+    padding-bottom: 30px;
+    margin-right: 27rem;
+}
+
+.textoArtsSection2 p{
+    font-family: var(--Poppins);
+    font-size: 25px;
+    font-weight: 300;
+    color: var(--cor6);
+    padding-bottom: 30px;
+    margin-right: 40.5rem;
+}
+
+/*-------------------------------------------------------------------*/
+
+.carousel-container {
+    width: 100%;
+    max-width:200px; /* Largura máxima do carousel */
+    height: 50px; /* Altura do carousel */
+    margin: 0 auto; /* Centraliza o carousel horizontalmente */
+    position: relative
+  }
+  
+  .carousel-slide {
+    height: 100%;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente a imagem dentro do slide */
+    justify-content: center; /* Centraliza horizontalmente a imagem dentro do slide */
+    margin: 0 px; /* Reduz o espaço entre os slides */
+  }
+
+  /* Adicione um estilo para o contêiner do carousel para compensar o espaçamento */
+.slick-track {
+    display: flex;
+  }
+  
+  .slick-list {
+    margin: 0 -5px; /* Compensa a margem adicionada aos slides */
+  }
+  
+  
+  .carousel-slide img {
+    max-width: 100%; /* Limita a largura da imagem ao tamanho do slide */
+    max-height: 100%; /* Limita a altura da imagem ao tamanho do slide */
+    object-fit: fill; /* Ajusta a imagem dentro do slide sem cortar */
+    transition: transform 0.3s ease; /* Transição suave para o efeito de zoom */
+  }
+  
+  .carousel-slide:hover img {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse sobre ela */
+  }
+  
+  
