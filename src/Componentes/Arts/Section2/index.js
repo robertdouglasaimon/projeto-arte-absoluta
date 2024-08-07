@@ -23,28 +23,29 @@ const settings = {
 const ArtsSection2 = () => {
   return (
     <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-      <div className='textoArtsSection2 container'>
-        <h1>Desenho de Animais</h1>
-        <p>Descrição pequena dessa parte</p>
-      </div>
-
-      <div className="carousel-container">
-        <Slider {...settings}>
-            <div className="carousel-slide">
-              <img src={FotoArte1} alt="Arte 1" />
-            </div>
-            <div className="carousel-slide">
-              <img src={FotoArte2} alt="Arte 2" />
-            </div>
-            <div className="carousel-slide">
-              <img src={FotoArte3} alt="Arte 3" />
-            </div>
-            <div className="carousel-slide">
-              <img src={FotoArte4} alt="Arte 4" />
-            </div>
-        </Slider>
-      </div>
-
+      <section>
+        <div className='textoArtsSection2 container'>
+          <h1>Desenho de Animais</h1>
+          <p>Descrição pequena dessa parte</p>
+        </div>
+        
+        <div className="carousel-container">
+          <Slider {...settings}>
+              <div className="carousel-slide">
+                <img src={FotoArte1} alt="Arte 1" />
+              </div>
+              <div className="carousel-slide">
+                <img src={FotoArte2} alt="Arte 2" />
+              </div>
+              <div className="carousel-slide">
+                <img src={FotoArte3} alt="Arte 3" />
+              </div>
+              <div className="carousel-slide">
+                <img src={FotoArte4} alt="Arte 4" />
+              </div>
+          </Slider>
+        </div>
+      </section>
     </div>
   );
 }
