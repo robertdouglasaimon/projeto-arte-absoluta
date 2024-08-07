@@ -9,6 +9,7 @@ import Home from './Home/Home';
 import About from './About/About';
 import Arts from './Arts/Arts';
 import Contact from './Contact/Contact';
+import Rodape from './Rodape';
 
 window.$ = $;
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/arts" element={<Arts/>} />
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
+        <Rodape/>
       </div>
     </Router>
   )

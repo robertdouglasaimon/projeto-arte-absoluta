@@ -8,7 +8,6 @@ import Section4 from './Section4';
 import Section5 from './Section5';
 import Section6 from './Section6';
 import Contato from '../Contact/Contato';
-import Rodape from './Rodape';
 
 
 const Home = (props) => {
@@ -23,7 +22,6 @@ const Home = (props) => {
       <Section5 />
       <Section6 />
       <Contato/>
-      <Rodape />
     </div>
   )
 }

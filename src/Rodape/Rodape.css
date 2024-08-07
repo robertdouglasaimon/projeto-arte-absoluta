@@ -2,6 +2,10 @@ footer {
     gap: 586px;
 }
 
+.textoRodape, .iconesRodape {
+    margin-bottom: 22px;  
+}
+
 .textoRodape p {
     display: flex;
     flex-wrap: wrap;

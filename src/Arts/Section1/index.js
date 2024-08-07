@@ -9,7 +9,7 @@ const ArtsSection1 = (props) => {
                 <p>Sua criatividade, sua inspiração <br></br>
                 Qualquer porra de historia, seja livre!.</p>
          
-                <img src={BannerArtsSection1} alt='Banner da sessão um.' className="bannerArtsSection1 img-fluid"/>
+                <img src={BannerArtsSection1} alt='Banner da sessão um.' className="bannerArtsSection1 img-fluid"/>    
             </section>
         </div>
     )
