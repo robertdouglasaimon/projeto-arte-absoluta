@@ -1,6 +1,6 @@
-import './ArtsSection3.css'
+import './ArtsSection2.css'
 
-const ArtsSection3 = () => {
+const ArtsSection2 = () => {
   return (
     <div>
       <section>
@@ -13,4 +13,4 @@ const ArtsSection3 = () => {
   )
 }
 
-export default ArtsSection3;
+export default ArtsSection2;
