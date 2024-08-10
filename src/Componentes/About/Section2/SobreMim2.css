@@ -17,12 +17,17 @@
     font-weight: 600;
     font-size: 40px;
     padding-bottom: 40px;
+    
 }
 
 .FotosSobreMim1 {
     position: relative;
     margin-right: 50px; /* Espaço entre o texto e a imagem */
     padding: 30px;
+}
+
+.TextosSobreMim1 h2 {
+    margin-left: 20px;
 }
 
 .TextosSobreMim1 p{
@@ -39,8 +44,18 @@
     margin-bottom: 5rem;
 }
 
+.Artigo2 h2 {
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
 .FotosSobreMim2 .reverse {
     grid-template-columns: auto 1fr;
+}
+
+.TextosSobreMim2 h2 {
+    margin-left: 20px;
 }
 
 .TextosSobreMim2 p{

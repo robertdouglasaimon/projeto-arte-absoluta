@@ -31,6 +31,7 @@ const SobreMim2 = (props) => {
 
                 <article className='Artigo2'>
                         <div className='TextosSobreMim2'>
+                            <h2>Transformação e empenho</h2>
                             <p>
                                 Com isso tive minha experiência de dev mais próxima da realidade, com prazos de implementação para o site, e aprendi muito enquanto codificava.
                             </p>
