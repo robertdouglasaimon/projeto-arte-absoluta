@@ -1,0 +1,52 @@
+.SectionSobreMim1 {
+    font-size: 24px;
+    font-family: var(--Poppins);
+    color: var(--cor4);
+    margin-right: 35px;
+}
+
+.Artigo1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 32px;
+    margin-bottom: 4rem;
+}
+
+.Artigo1 h2 {
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.FotosSobreMim1 {
+    position: relative;
+    margin-right: 50px; /* Espaço entre o texto e a imagem */
+    padding: 30px;
+}
+
+.TextosSobreMim1 p{
+    padding: 20px;
+}
+
+
+.Artigo2 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    align-items: start;
+    padding-left: 32px;
+    margin-bottom: 5rem;
+}
+
+.FotosSobreMim2 .reverse {
+    grid-template-columns: auto 1fr;
+}
+
+.TextosSobreMim2 p{
+    padding: 20px;
+}
+
+.FotosSobreMim1 > .Foto1SobreMim1, .FotosSobreMim2 > .Foto2SobreMim2 {
+    border-radius: 50px;
+}

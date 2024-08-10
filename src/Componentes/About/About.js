@@ -1,10 +1,12 @@
 import React from 'react';
+import SobreMim1 from './Section1';
+import SobreMim2 from './Section2';
 
 const About = () => {
   return (
     <div>
-      <h1>Sobre Mim</h1>
-      {/* Conteúdo específico da página "Sobre Mim" */}
+      <SobreMim1/>
+      <SobreMim2/>
     </div>
   );
 };
