@@ -1,10 +1,10 @@
 import React from 'react';
-import Contato from './Contato';
+import AbaContato from './AbaContato';
 
 const Contact = (props) => {
   return (
     <div>
-        <Contato/>
+        <AbaContato/>
     </div>
   );
 };
