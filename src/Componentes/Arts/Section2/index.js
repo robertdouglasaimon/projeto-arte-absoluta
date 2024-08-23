@@ -24,7 +24,7 @@ const ArtsSection2 = () => {
   return (
     <div>
       <section>
-      {/* Reutilizando o componente para a galeria de animes */}
+      {/* Reutilizando o componente para a galeria de fotos*/}
         <article>
           {/*Sessão de animes*/}
           <CarouselBS4
