@@ -1,0 +1,30 @@
+.textoArtsComponente {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 1rem; /* Ajuste conforme necessário */
+  }
+
+.textoArtsComponente  h1{
+    font-family: var(--Poppins);
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor4);
+    padding-bottom: 30px;
+    margin-right: 37rem;
+}
+
+.textoArtsComponente  p{
+    font-family: var(--Poppins);
+    font-size: 25px;
+    font-weight: 300;
+    color: var(--cor6);
+    padding-bottom: 30px;
+    margin: -10px 40.5rem 0px 0px;
+}
+
+/*CROUSEL-----------------------------------------*/
+.carouselConfigGlobal {
+    margin: 100px 0px 100px 0px ;
+}
