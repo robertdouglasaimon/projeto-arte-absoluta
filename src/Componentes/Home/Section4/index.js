@@ -42,11 +42,13 @@ const Section4 = (props) => {
                 </div>
 
                 <div className='textoSection4'>
-                    <h1>Experimentando e <br /> personalizando.</h1>
+                    <h1>Experimentando e personalizando <br />cada traço.</h1>
                     <p>
-                        Uma sequencia de teste dahora aqui para ver<br />
-                        como se comporta essa parte, podia usar lorem,<br />
-                        mas vou escrever lorota mesmo :)
+                        Cada projeto é único, uma fusão entre inovação e <br/> personalização.
+                        Da concepção inicial ao acabamento final,<br />
+                        cada obra é pensada para refletir o desejo do cliente,<br />
+                        com atenção aos detalhes em todas as etapas,<br />
+                        do rascunho ao resultado final.
                     </p>
                 </div>
 

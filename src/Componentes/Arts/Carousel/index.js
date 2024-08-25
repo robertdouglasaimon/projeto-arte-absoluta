@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './CarouselBS4.css';
 import { Modal } from 'react-bootstrap';
 
-const CarouselBS4 = ({ title, description, images }) => {
+const CarouselBS4 = ({ title, description, images, carouselId }) => {
     const [showModal, setShowModal] = useState(false);
     const [modalImage, setModalImage] = useState('');
 
@@ -15,17 +15,18 @@ const CarouselBS4 = ({ title, description, images }) => {
 
     return (
         <div>
-            <div className='textoArtsComponente  container'>
+            <div className='textoArtsComponente container'>
                 <h1>{title}</h1>
                 <p>{description}</p>
             </div>
 
             <div className='carouselConfigGlobal'>
-                <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
-                    <ol className="carousel-indicators">{images.map((_, index) => (
+                <div id={carouselId} className="carousel slide" data-ride="carousel">
+                    <ol className="carousel-indicators">
+                        {images.map((_, index) => (
                             <li
                                 key={index}
-                                data-target="#carouselExampleCaptions"
+                                data-target={`#${carouselId}`}
                                 data-slide-to={index}
                                 className={index === 0 ? "active" : ""}
                             ></li>
@@ -50,20 +51,24 @@ const CarouselBS4 = ({ title, description, images }) => {
                             </div>
                         ))}
                     </div>
-                    <button className="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                    
+                    <button className="carousel-control-prev" type="button" data-target={`#${carouselId}`} data-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="sr-only">Previous</span>
                     </button>
-                    <button className="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                    <button className="carousel-control-next" type="button" data-target={`#${carouselId}`} data-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </button>
+
                 </div>
+                
                 <Modal show={showModal} onHide={handleClose} centered>
                     <Modal.Body className='d-flex justify-content-center align-items-center'>
                         <img src={modalImage} alt="Full screen" className="img-fluid" />
                     </Modal.Body>
                 </Modal>
+                
             </div>
         </div>
     );

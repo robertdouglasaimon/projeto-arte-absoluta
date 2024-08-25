@@ -13,8 +13,16 @@ const Section6 = (props) => {
     return (
         <div className='container containerSection6'>
             <section className='section6'>
-                <h1>Mostrar alguns desenhos</h1>  
-                <h2>Descrição pequena dessa parte</h2>  
+                <h1>Uma amostra da criatividade</h1>  
+                <h2>
+                    Explore um portfólio diversificado que captura a essência da minha arte.<br/> 
+                    De animes e celebridades a animais e objetos
+                    cotidianos, cada desenho<br/>  
+                    reflete a paixão e a habilidade que coloco em cada projeto.
+                    <br/>
+                    <br/>
+                    Navegue pelas imagens abaixo e veja a versatilidade do meu trabalho. ✌🏼
+                </h2>  
                 <div className="fotoSecao6">
                     <img src={Foto15} alt='Foto15'/>
                     <img src={Foto16} alt='Foto16'/>

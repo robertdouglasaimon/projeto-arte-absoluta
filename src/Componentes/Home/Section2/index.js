@@ -17,17 +17,18 @@ const Section2 = (props) => {
             </div>
 
             <div className='d1'>
-                <h1>Titulo top para algo :D</h1>
-                <h2>
-                    Aqui eu faço o bagulho <br></br>
-                acontecer!
-                </h2>
+                <h1>Conheça a Visão por Trás da Arte</h1>
+                <h2>Rascunhos e Processos Criativos</h2>
+
                 <p>
-                    Rascunhos,  processos criativos<br></br>
-                    Os lapis que tu usa, os tipos de borracha,<br></br>
-                    tipos de folhas, tipos de canetão, enfim<br></br> 
-                    caralho!
+                    Do primeiro traço ao acabamento final, cada detalhe é pensado<br></br> 
+                    para capturar a essência da ideia original.
                 </p>
+
+                <p>
+                    Exploro diferentes materiais e técnicas, desde o lápis que desenha<br></br> as primeiras linhas até a caneta que define os contornos.
+                </p>
+
                 <Link to="/about">
                     <button className='custom-button'>
                             <p>Saiba mais</p>

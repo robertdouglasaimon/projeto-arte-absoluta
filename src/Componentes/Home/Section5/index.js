@@ -7,10 +7,11 @@ const Section5 = (props) => {
     return (
         <div className='container section5container'>
             <section className='section5'>
-                <h2>Um titulo para alguma sessão</h2>
+                <h2>Explorando Novos Horizontes</h2>
                 <p>
-                    Alguma descrição para essa sessão, qualquer porra<br></br>
-                    para testar o espaço e afins :D
+                    A arte não tem limites. Cada nova obra é uma oportunidade de experimentar,<br></br>inovar e descobrir novos caminhos criativos.<br></br>
+                    <br/>
+                    Aqui, mostro um pouco das minhas explorações artísticas mais recentes, <br/>onde a imaginação encontra a técnica.
                 </p>
 
                 <div className="fotosSessao5"> 

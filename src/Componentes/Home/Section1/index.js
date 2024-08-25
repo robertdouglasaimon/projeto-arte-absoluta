@@ -6,42 +6,38 @@ import Seta from './img/Component1.png';
 
 const Section1 = (props) => {
     return (
-        <section className='section1'>
-            <div className='container'>
-
-                <div className='box'>
-                    <h1 className='multiline-text'>
-                        Processo<br />
-                        criativo<br />
-                        ta indo!<br />
-                        Vambora<br />
-                    </h1>
-                    <h2>
-                        Sua criatividade, sua inspiração <br />
-                        Qualquer porra de história, seja livre!
-                    </h2>
-
-                    <a href='https://www.youtube.com/watch?v=dEk0sV5G8fc' target='__blank'>
-                        <button className='custom-button'> 
+        <main>
+            <section className='section1'>
+                <div className='container'>
+                    <div className='box'>
+                        <h1 className='multiline-text'>
+                            Bem-vindo à<br />
+                            Arte Absoluta<br />
+                        </h1>
+                        <h2>
+                            Mergulhe em um universo onde a criatividade <br />
+                            não tem limites e a arte ganha vida de formas surpreendentes.
+                        </h2>
+                        <a href='https://www.youtube.com/watch?v=dEk0sV5G8fc' target='__blank'>
+                            <button className='custom-button'>
                                 <p>Saiba mais</p>
                                 <span className='Seta'>
                                     <img src={Seta} alt='Seta do botão' />
                                 </span>
-                            
-                        </button>
-                    </a>
-                </div>
+                            </button>
+                        </a>
+                    </div>
 
-                <div className='image-container'>
-                    <img src={Foto1} alt='Foto1' className='Foto1' />
-
-                    <div style={{display: 'flex'}} className='fotos'>
-                        <img src={Foto2} alt='Foto2' className='Foto2' />
-                        <img src={Foto3} alt='Foto3' className='Foto3' />
+                    <div className='image-container'>
+                        <img src={Foto1} alt='Foto1' className='Foto1' />
+                        <div style={{display: 'flex'}} className='fotos'>
+                            <img src={Foto2} alt='Foto2' className='Foto2' />
+                            <img src={Foto3} alt='Foto3' className='Foto3' />
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </main>
     );
 };
 
