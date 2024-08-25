@@ -1,0 +1,140 @@
+.AbaContato {
+    margin-top: 13rem;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.AbaContato, h2 p {
+    font-family: var(--Poppins);
+    color: var(--cor4);
+    text-align: center;
+}
+
+.AbaContato h2 {
+    font-weight: bolder;
+    font-size: 4rem;
+    padding-bottom: 10px;
+}
+
+.AbaContato p {
+    font-size: 1.1rem;
+    margin-bottom: 7rem;
+}
+
+.ContatosIcones {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 20rem 5rem;
+    gap: 70px;
+    text-decoration: none;
+}
+
+.ContatosIcones a:hover {
+    color: var(--cor2);
+}
+
+.ContatosIcones h3 {
+    font-size: 18px;
+    text-align: left;
+    position: absolute;
+    right: 68.4rem;
+    padding-top: 15px;
+}
+
+.ContatosIcones p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+    position: absolute;
+    right: 68.4rem;
+    margin: 10px 0px 0px 0px;
+}
+
+.CaixaDeRedeSociais {
+    width: 723px;
+    height: 382px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: var(--cor6);
+    opacity: 100%;
+    border-radius: 20px;
+
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 6px 0px 0px 31rem;   
+    border-radius: 20px;
+    position: relative;
+}
+
+video {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+#Video1 {
+    position: absolute;
+    padding-left: 0px;
+}
+
+#Video2 {
+    position: absolute;
+    margin-left: -26rem;
+}
+
+#Video3 {
+    position: absolute;
+    margin-left: -52rem;
+}
+
+
+
+.RedesSociaisContatos {
+    display: flex;
+    position: relative;
+}
+
+.RedesSociaisContatosIcones img[alt*='Icone do Telegram'] {
+    position: absolute;
+    top: 20px;
+    right: 644px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.RedesSociaisContatosIcones img[alt*='Icone do TikTok'] {
+    position: absolute;
+    top: 155px;
+    right: 644px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.RedesSociaisContatosIcones img[alt*='Icone do Instagram'] {
+    position: absolute;
+    top: 290px;
+    right: 644px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+
+.RedesSociaisContatosIcones img[alt*='Icone do Telegram']:hover {
+    transform: scale(1.2); /* Aumenta o ícone em 20% */
+}
+
+.RedesSociaisContatosIcones img[alt*='Icone do TikTok']:hover {
+    transform: scale(1.2); /* Aumenta o ícone em 20% */
+}
+
+.RedesSociaisContatosIcones img[alt*='Icone do Instagram']:hover {
+    transform: scale(1.2); /* Aumenta o ícone em 20% */
+}
+
+.RedesSociaisContatosIcones img:hover {
+    transform: scale(1.2); /* Aumenta o ícone em 20% */
+    filter: drop-shadow(0 0 5px #ff0000) drop-shadow(0 0 10px #ff0000) drop-shadow(0 0 15px #ff0000); /* Efeito neon */
+}

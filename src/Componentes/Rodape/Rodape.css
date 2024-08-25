@@ -1,0 +1,33 @@
+footer {
+    gap: 586px;
+}
+
+.textoRodape, .iconesRodape {
+    margin-bottom: 22px;  
+}
+
+.textoRodape p {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--Poppins);
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--cor4);
+}
+
+.textoRodape a {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.textoRodape a:hover {
+    color: var(--cor7);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.iconesRodape {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+}

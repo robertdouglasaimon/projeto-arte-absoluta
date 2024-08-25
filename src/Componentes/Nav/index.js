@@ -1,30 +1,31 @@
 import './Nav.css'
-import Logo from '../img/Logo.png'
-import LogoYoutube from '../img/LogoYoutube.png'
+import Logo from './img/Logo.png'
+import LogoYoutube from './img/LogoYoutube.png'
+import { Link } from 'react-router-dom'
 
 const Nav = (props) => {
   return (  
     <div>
         <header>
             <ul className="nav justify-content-center text-align-center position-relative">
-                <img src={Logo} alt='Logo' className='Logo'/>
+                <img src={Logo} alt='Logo' className='Logo' id='logoDiego'/>
                 
                 <li className="nav-item">
-                    <a className="nav-link active" href='/'>Inicio</a>
+                    <Link className="nav-link active" to='/'>Início</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href='/'>Sobre mim</a>
+                    <Link className="nav-link" to='/about'>Sobre mim</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href='/'>Artes</a>
+                    <Link className="nav-link" to='/arts'>Artes</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href='/'>Contato</a>
+                    <Link className="nav-link" to='/contact'>Contato</Link>
                 </li>
                 
-                <a href="https://www.youtube.com/watch?v=-wZl_ZhnVg4" target='_blank' rel="noreferrer">
+                <Link to="https://www.youtube.com/watch?v=-wZl_ZhnVg4" target='_blank' rel="noreferrer">
                     <img src={LogoYoutube} alt='LogoYoutube' className='LogoYoutube'/>
-                </a>
+                </Link>
             </ul>
             
         </header>

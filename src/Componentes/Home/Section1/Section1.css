@@ -1,0 +1,111 @@
+.section1 {
+    padding-bottom: 120px;
+    padding-left: 80px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    position: relative;
+}
+
+.box {
+    width: 60%;
+}
+
+.section1  h1{
+    font-family: var(--Poppins);
+    font-size: 96px;
+    font-weight: bold;
+    padding: 78px 0px 60px 0px;
+    color: var(--cor4);
+    line-height: 125%;
+}
+
+.multiline-text {
+    white-space: pre-line;
+}
+
+.section1 h2 {
+    font-family: var(--Poppins);
+    font-size: 18px;
+    color: var(--cor1);
+    font-weight: 300;
+    padding: 0px 0px 45px;
+}
+
+.section1 a {
+    text-decoration: none;
+}
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 266px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 550;
+    font-family: var(--Poppins);
+    font-size: 20px;
+    text-align: center;
+    background-color: var(--cor1);
+    color: #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-right: 20px;
+}
+
+.button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.button-icon img {
+    width: 15px;
+    height: 15px;
+}
+
+.custom-button p {
+    margin-left: 30px;
+}
+
+.Seta {
+    margin-left: 13px;
+}
+
+
+
+/* IMAGENS -------------------------------------------------*/
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinha as imagens à direita */
+    padding-left: 10px;
+}
+
+.Foto1 {
+    width:auto;
+    border-radius: 20px;
+    margin-bottom: 20px; 
+    padding-top: 55px;
+}
+
+
+.Foto2, .Foto3 {
+    width: auto; 
+    border-radius: 20px;
+    margin-left: 22px;
+}
+
+.fotos {
+    padding-right: 330px;
+}
