@@ -1,0 +1,42 @@
+.bannerBemVindo {
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
+}
+
+.bannerFoto {
+    justify-content: center;
+    text-align: center;
+}
+
+/*EFEITO NEON NA FOTO DO BANNER PERFIL E NOS ELEMENTOS DO SITE-------------------------------------------------*/
+
+.neon-photo-effect {
+    display: block; /* Garante que o elemento ocupe apenas o espaço da imagem */
+    width: auto; 
+    margin: 0 auto; 
+    padding: 180px 0px 0px 90px;
+    position: relative; /* Permite o uso de pseudo-elementos */
+    filter: drop-shadow(0 0 5px rgba(190, 5, 5, 0.8))
+            drop-shadow(0 0 10px rgba(190, 5, 5, 0.8))
+            drop-shadow(0 0 20px rgba(190, 5, 5, 0.8));
+    animation: neonPulse 2s infinite; /* Aplica a animação contínua */
+  }
+  
+  @keyframes neonPulse {
+    0% {
+        filter: drop-shadow(0 0 5px rgba(190, 5, 5, 0.8)) /* No início da animação, a sombra tem o mesmo efeito inicial. */
+                drop-shadow(0 0 10px rgba(190, 5, 5, 0.8)) /* As sombras são menos intensas comparadas com o estágio final. */
+                drop-shadow(0 0 20px rgba(190, 5, 5, 0.8));
+    }
+    50% {
+        filter: drop-shadow(0 0 5px rgba(190, 5, 5, 0.8)) /* No meio da animação, a sombra se intensifica com opacidade total (1). */
+                drop-shadow(0 0 10px rgba(190, 5, 5, 0.8)) /* As sombras se tornam mais visíveis. */
+                drop-shadow(0 0 20px rgba(190, 5, 5, 0.8));
+    }
+    100% {
+        filter: drop-shadow(0 0 5px rgba(216, 90, 6, 0.8)) /* No final da animação, o efeito retorna ao estado inicial. */
+                drop-shadow(0 0 10px rgba(216, 90, 6, 0.8))
+                drop-shadow(0 0 20px rgba(216, 90, 6, 0.8));
+    }
+  }

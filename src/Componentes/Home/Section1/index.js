@@ -11,8 +11,8 @@ const Section1 = (props) => {
                 <div className='container'>
                     <div className='box'>
                         <h1 className='multiline-text'>
-                            Bem-vindo à<br />
-                            Arte Absoluta<br />
+                            Onde a Arte <br />
+                            Ganha Vida!<br />
                         </h1>
                         <h2>
                             Mergulhe em um universo onde a criatividade <br />
@@ -30,6 +30,7 @@ const Section1 = (props) => {
 
                     <div className='image-container'>
                         <img src={Foto1} alt='Foto1' className='Foto1' />
+                        
                         <div style={{display: 'flex'}} className='fotos'>
                             <img src={Foto2} alt='Foto2' className='Foto2' />
                             <img src={Foto3} alt='Foto3' className='Foto3' />
