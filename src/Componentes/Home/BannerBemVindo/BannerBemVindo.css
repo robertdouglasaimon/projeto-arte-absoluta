@@ -13,7 +13,7 @@
 
 .neon-photo-effect {
     display: block; /* Garante que o elemento ocupe apenas o espaço da imagem */
-    width: auto; 
+    width: 1000px; 
     margin: 0 auto; 
     padding: 180px 0px 0px 90px;
     position: relative; /* Permite o uso de pseudo-elementos */
